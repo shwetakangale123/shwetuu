@@ -1,0 +1,22 @@
+<h1>for Binding</h1>
+
+<h2>Data Binding</h2>
+ 
+<!-- // 1.interpolation -->
+<h3>{{sampleText}}</h3>
+
+<!-- // 2.property Binding -->
+
+<a [href]="link" class="btn btn-link">Go to Google</a><br><br>
+
+<!-- // 3.Event Binding -->
+
+<button class="btn btn-primary"(click)="clickEvent()">Submit</button><br><br>
+
+
+
+<!-- two way data binding  -->
+
+Please Enter Your Name: <input type="text" name="fullName" [(ngModel)]="fullName"> <br><br>
+
+Your Name is : <b>{{fullName}}</b> 
